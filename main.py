@@ -1,3 +1,4 @@
+#coded by Jroken
 import pyttsx3
 from googletrans import Translator
 import speech_recognition as sr
@@ -22,4 +23,4 @@ while bool:
         example = translator.translate(kelime)
         print(example.text)
         speak(example.text)
-        
+#Coded By Jroken 12.01.2022
